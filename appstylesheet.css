@@ -2229,7 +2229,7 @@ p {
     padding-top: 40px;
     padding-bottom: 450px;
     background-color: #bfbfbf;
-    background-image: url("https://assets.website-files.com/53828cf678e1ff6971386e1d/5382900c8a5f2a68714e2a5f_overlay-pattern.png"), url("https://jamespeterjacob.github.io/app/capp2.svg");
+    background-image: url(""), url("https://jamespeterjacob.github.io/app/capp2.svg");
     background-position: 0% 0%, 50% 50%;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
