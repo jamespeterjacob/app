@@ -10,13 +10,13 @@ $(function () {
         if ($(this).find('img').attr('src').indexOf('_on.gif') != -1) {
             menuID = $(this).attr("id");
         } else {
-            $(this).find('img').attr('src', '/Areas/Client/Content/Images/common/' + thisMenuID + "_" + ClientLanguageJS.LanguagePrefix + '_on.gif');
+            $(this).find('img').attr('src', 'https://www.aromebakery.com.hk/Areas/Client/Content/Images/common/' + thisMenuID + "_" + ClientLanguageJS.LanguagePrefix + '_on.gif');
         }
     });
     $('.headMenu').find('a').mouseout(function () {
         var thisMenuID = $(this).attr('id');
         if (thisMenuID != menuID) {
-            $(this).find('img').attr('src', '/Areas/Client/Content/Images/common/' + thisMenuID + "_" + ClientLanguageJS.LanguagePrefix + '_off.gif');
+            $(this).find('img').attr('src', 'https://www.aromebakery.com.hk/Areas/Client/Content/Images/common/' + thisMenuID + "_" + ClientLanguageJS.LanguagePrefix + '_off.gif');
         }
     });
     $(".changeLanguage").click(function () {

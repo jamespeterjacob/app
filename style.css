@@ -744,7 +744,7 @@ li.fancybox-thumbs-loading {
     content: "";
     background-position: center;
     background-size: cover;
-    background-image: url(/Areas/Client/Content/arome2017/Images/common/spinner-600x600.gif);
+    background-image: url(https://www.aromebakery.com.hk//Areas/Client/Content/arome2017/Images/common/spinner-600x600.gif);
     transform: translate(-7%, 0px);
     transition: all 0.4s ease 0s; }
   .lazy-img-holder img {
